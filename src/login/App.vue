@@ -7,9 +7,11 @@
       <br />
       <button type="button" @click="login">登录</button>
     </form>
+
     <alert />
   </div>
 </template>
+
 <script>
 import { login } from "./api/Login";
 export default {

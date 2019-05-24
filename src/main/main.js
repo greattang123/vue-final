@@ -15,6 +15,7 @@ if (token == null) {
       bus.$emit(bus.isAdmin, true);
     }, 1000);
   }
+
   new Vue({
     router,
     render: h => h(App)
